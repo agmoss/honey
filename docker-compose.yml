@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+    web:
+        image: m0sscr.azurecr.io/honey:latest
+        build:
+            context: ./
+            dockerfile: Dockerfile
+        ports:
+            - 1337:1337

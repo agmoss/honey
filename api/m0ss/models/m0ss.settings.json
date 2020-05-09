@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "m0sses",
+  "info": {
+    "name": "m0ss"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

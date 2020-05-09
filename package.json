@@ -1,0 +1,41 @@
+{
+  "name": "honey",
+  "private": true,
+  "version": "0.1.0",
+  "description": "honey",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "s": "NODE_ENV=development node index.js"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "find-config": "^1.0.0",
+    "strapi": "3.0.0-beta.20.3",
+    "strapi-admin": "3.0.0-beta.20.3",
+    "strapi-connector-mongoose": "3.0.0-beta.20.3",
+    "strapi-plugin-content-manager": "3.0.0-beta.20.3",
+    "strapi-plugin-content-type-builder": "3.0.0-beta.20.3",
+    "strapi-plugin-email": "3.0.0-beta.20.3",
+    "strapi-plugin-graphql": "3.0.0-beta.20.3",
+    "strapi-plugin-upload": "3.0.0-beta.20.3",
+    "strapi-plugin-users-permissions": "3.0.0-beta.20.3",
+    "strapi-utils": "3.0.0-beta.20.3"
+  },
+  "author": "Andrew Moss <andrew@m0ss.dev> (https://m0ss.dev/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agmoss/honey.git"
+  },
+  "strapi": {
+    "uuid": "59982cf2-2096-48db-ae9e-3071d792371d"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

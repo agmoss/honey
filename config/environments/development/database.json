@@ -1,0 +1,21 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "mongoose",
+      "settings": {
+        "database": "${process.env.DEV_DATABASE_NAME}",
+        "host": "${process.env.DEV_DATABASE_HOST}",
+        "srv": false,
+        "port":27017,
+        "username": "${process.env.DEV_DATABASE_USERNAME}",
+        "password": "${process.env.DEV_DATABASE_PASSWORD}"
+      },
+      "options": {
+        "authenticationDatabase": "",
+        "ssl":true,
+        "debug":true
+      }
+    }
+  }
+}

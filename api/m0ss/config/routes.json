@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/m-0-sses",
+      "handler": "m0ss.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/m-0-sses/count",
+      "handler": "m0ss.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/m-0-sses/:id",
+      "handler": "m0ss.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/m-0-sses",
+      "handler": "m0ss.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/m-0-sses/:id",
+      "handler": "m0ss.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/m-0-sses/:id",
+      "handler": "m0ss.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
