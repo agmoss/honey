@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Lifecycle callbacks for the `m0ss` model.
+ * Lifecycle callbacks for the `profile` model.
  */
 
 module.exports = {
