@@ -1,0 +1,11 @@
+{
+    "provider": "aws-s3",
+    "providerOptions": {
+      "accessKeyId": "${process.env.AWS_KEY}",
+      "secretAccessKey": "${process.env.AWS_SECRET}",
+      "region": "us-west-2",
+      "params": {
+        "Bucket": "${process.env.AWS_BUCKET}"
+      }
+    }
+  }
