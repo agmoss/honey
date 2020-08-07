@@ -22,7 +22,7 @@
   },
   "cors": {
     "enabled": true,
-    "origin":"https://m0ss.dev, https://honeyy.azurewebsites.net, http://localhost:1337"
+    "origin":"https://m0ss.dev, https://honeyy.azurewebsites.net"
   },
   "ip": {
     "enabled": false,

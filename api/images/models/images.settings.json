@@ -1,25 +1,36 @@
 {
   "kind": "collectionType",
-  "collectionName": "images",
+  "collectionName": "media",
   "info": {
-    "name": "images"
+    "name": "media"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string",
       "required": true,
       "unique": true
     },
-    "media": {
+    "asset": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",
         "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "preview": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
         "videos"
       ],
       "plugin": "upload",

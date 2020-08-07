@@ -2,7 +2,7 @@ version: "3"
 
 services:
     web:
-        image: m0sscr.azurecr.io/honey:latest
+        image: m0sscr.azurecr.io/honeyy:latest
         build:
             context: ./
             dockerfile: Dockerfile
